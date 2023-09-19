@@ -1,0 +1,22 @@
+.header-nav {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 0 18.8rem;
+  /* background-color: sandybrown; */
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  /* display: flex; */
+}
+
+a {
+  font-family: "Markazi";
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+}
