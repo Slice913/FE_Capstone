@@ -1,0 +1,65 @@
+main {
+  display: flex;
+  /* background-color: #ffffff; */
+  background-color: skyblue;
+  height: 46rem;
+  width: 100vw;
+}
+
+.button-main {
+  font-family: Karla;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 1rem;
+  width: 12.5rem;
+  height: 3.0625rem;
+  background-color: #f4ce14;
+  border: none;
+  position: relative;
+  left: 57rem;
+  top: 7rem;
+}
+
+.specials-main {
+  position: absolute;
+  color: black;
+  left: 19rem;
+  top: 35.6rem;
+  font-family: Markazi Text;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cards {
+  display: flex;
+  gap: 1.9rem;
+}
+
+.card {
+  position: relative;
+  top: 15rem;
+  left: 6.4rem;
+  background-color: lightgray;
+  width: 15.54169rem;
+  height: 27.4375rem;
+  border-radius: 1rem;
+}
+
+.card-img {
+  width: 15.54169rem;
+  height: 11.57863rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  border: 0px solid #000;
+}
+
+.card-description {
+  font-family: Karla;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

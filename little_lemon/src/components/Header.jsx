@@ -12,7 +12,7 @@ function Header() {
           deleniti possimus. Lorem, ipsum dolor.
         </p>
         <></>
-        <button>Reserve a Table</button>
+        <button className="button-header">Reserve a Table</button>
       </article>
       <article className="header-section-right">
         <img
