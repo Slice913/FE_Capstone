@@ -3,7 +3,7 @@ main {
   /* background-color: #ffffff; */
   background-color: skyblue;
   height: 46rem;
-  width: 100vw;
+  width: 104vw;
 }
 
 .button-main {
@@ -56,10 +56,30 @@ main {
   border: 0px solid #000;
 }
 
+.card-pt {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0em 1em 0rem;
+}
+
+.card-pt > span {
+  color: #ee9972;
+}
+
 .card-description {
   font-family: Karla;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 12rem;
+  margin: 0 2rem;
+}
+
+.card-delivery {
+  display: flex;
+  padding: 3rem 2rem 0rem 0rem;
+  margin-left: 2rem;
+  align-items: center;
+  justify-content: space-between;
 }

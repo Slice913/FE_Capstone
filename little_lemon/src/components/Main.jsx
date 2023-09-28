@@ -16,11 +16,19 @@ function Main() {
               className="card-img"
             />
           </div>
-          <h4>Greek Salad</h4>
-          <span>$12.99</span>
+          <div className="card-pt">
+            <h4>Greek Salad</h4>
+            <span>$12.99</span>
+          </div>
           <p className="card-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex. Lorem
+            ipsum, dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit
+            amet, consectetur adipisicing.
           </p>
+          <div className="card-delivery">
+            <h6>Order a delivery</h6>
+            <h5>🚚</h5>
+          </div>
         </article>
         <article className="card">card2</article>
         <article className="card">card3</article>
