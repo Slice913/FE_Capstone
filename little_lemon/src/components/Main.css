@@ -1,7 +1,6 @@
 main {
   display: flex;
-  /* background-color: #ffffff; */
-  background-color: skyblue;
+  background-color: #fff;
   height: 46rem;
   width: 104vw;
 }
@@ -46,7 +45,10 @@ main {
   background-color: lightgray;
   width: 15.54169rem;
   height: 27.4375rem;
-  border-radius: 1rem;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .card-img {
@@ -64,6 +66,11 @@ main {
 
 .card-pt > span {
   color: #ee9972;
+  font-family: Karla;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .card-description {
@@ -74,6 +81,7 @@ main {
   line-height: normal;
   width: 12rem;
   margin: 0 2rem;
+  color: #495e57;
 }
 
 .card-delivery {
@@ -81,5 +89,8 @@ main {
   padding: 3rem 2rem 0rem 0rem;
   margin-left: 2rem;
   align-items: center;
-  justify-content: space-between;
+}
+
+.card-delivery > h5 {
+  padding-left: 2rem;
 }

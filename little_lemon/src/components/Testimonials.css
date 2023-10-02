@@ -1,7 +1,9 @@
 .testimonials {
+  background: #d9d9d9;
   display: grid;
+  grid-template-rows: 20%;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   width: 95.5625rem;
   height: 35rem;
 }
@@ -15,8 +17,25 @@
   line-height: normal;
 }
 
-.testimonial-rating {
+.testimonial-rating-container {
+  width: 12.5rem;
+  height: 11rem;
+  background: white;
+}
+
+.testimonial-img-container {
+  display: flex;
+}
+
+.testimonial-img {
   border: 1px solid black;
   width: 2rem;
   height: 2rem;
+  /* margin: 1rem 1rem 1rem 0rem; */
+}
+
+.testimonial-img-name {
+  color: black;
+  width: 3rem;
+  margin: revert;
 }
