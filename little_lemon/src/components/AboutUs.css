@@ -1,0 +1,26 @@
+.aboutus-main {
+  height: 33em;
+  width: 99rem;
+  background-color: lightgreen;
+}
+
+.aboutus-left {
+  margin-left: 19.8rem;
+}
+
+.aboutus-h1 {
+  color: black;
+  width: max-content;
+}
+
+.aboutus-h2 {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.aboutus-p {
+  color: black;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Karla;
+}
