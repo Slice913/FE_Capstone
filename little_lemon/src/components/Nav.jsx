@@ -11,13 +11,9 @@ function Nav() {
           src="little_lemon/public/assets/Logo.svg"
           alt="little lemon logo"
         />
-        {/* <iframe
-        title="logo"
-        src="/Users/akeemayoade/Desktop/Coursera/FE_Capstone/little_lemon/public/assets/Logo.svg"
-        alt="Little Lemon logo"
-      ></iframe> */}
+
         <nav>
-          <ul>
+          <ul className="nav-links">
             <li>
               <a href="/#">Home</a>
             </li>

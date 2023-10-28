@@ -2,30 +2,29 @@ main {
   display: flex;
   background-color: #fff;
   height: 46rem;
-  width: 109vw;
 }
 
 .button-main {
   font-family: Karla;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   border-radius: 1rem;
   width: 12.5rem;
-  height: 3.0625rem;
+  height: 3.8rem;
   background-color: #f4ce14;
   border: none;
   position: relative;
-  left: 57rem;
+  left: 61rem;
   top: 7rem;
 }
 
 .specials-main {
   position: absolute;
   color: black;
-  left: 19rem;
-  top: 35.6rem;
+  left: 22rem;
+  top: 39.6rem;
   font-family: Markazi Text;
   font-size: 4rem;
   font-style: normal;
@@ -41,9 +40,9 @@ main {
 .card {
   position: relative;
   top: 15rem;
-  left: 6.4rem;
+  left: 9.4rem;
   background-color: lightgray;
-  width: 15.54169rem;
+  width: 16rem;
   height: 27.4375rem;
   border-top-left-radius: 0.625rem;
   border-top-right-radius: 0.625rem;
@@ -52,7 +51,7 @@ main {
 }
 
 .card-img {
-  width: 15.54169rem;
+  width: 16rem;
   height: 11.57863rem;
   border-radius: 1rem 1rem 0rem 0rem;
   border: 0px solid #000;
@@ -61,7 +60,7 @@ main {
 .card-pt {
   display: flex;
   justify-content: space-around;
-  padding: 1em 0em 1em 0rem;
+  padding: 1em 2.2em 1em 0rem;
 }
 
 .card-pt > span {
@@ -71,6 +70,8 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-right: 0em;
+  margin-left: -11px;
 }
 
 .card-description {
@@ -79,7 +80,7 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 12rem;
+  width: 13.6rem;
   margin: 0 2rem;
   color: #495e57;
 }

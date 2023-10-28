@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   background-color: #495e57;
   height: 25.375rem;
-  width: 104vw;
+  width: 100vw;
   position: relative;
   top: 0;
   left: 0;
@@ -23,6 +23,11 @@
 .header-section-left {
   margin-left: 19.8rem;
 }
+
+.header-section-left > h1:nth-child(1) {
+  margin-right: 0rem;
+}
+
 .header-section-right {
   margin-right: 21rem;
 }

@@ -11,7 +11,7 @@ function Main() {
         <article className="card">
           <div>
             <img
-              src="little_lemon/public/assets/cardImage_salad.png"
+              src="/Users/akeemayoade/Desktop/Coursera/FE_Capstone/little_lemon/public/assets/restauranfood.jpg"
               alt=""
               className="card-img"
             />

@@ -16,6 +16,10 @@ function AboutUs() {
           Nam.
         </p>
       </article>
+      <article className="aboutus-right">
+        <img src="" alt="" className="aboutus-img-bottom" />
+        <img src="" alt="" className="aboutus-img-top" />
+      </article>
     </section>
   );
 }

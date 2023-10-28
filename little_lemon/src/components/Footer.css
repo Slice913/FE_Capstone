@@ -1,0 +1,9 @@
+.footer-main {
+  background: lightgray;
+  height: 26rem;
+}
+
+.footer-nav-links {
+  display: flex;
+  background-color: yellow;
+}
