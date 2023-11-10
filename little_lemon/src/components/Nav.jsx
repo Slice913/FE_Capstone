@@ -34,7 +34,7 @@ function Nav() {
             </li>
           </ul>
         </nav>
-        <button className="menu-btn">Menu</button>
+        {/* <button className="menu-btn">Menu</button> */}
       </header>
     </container>
   );

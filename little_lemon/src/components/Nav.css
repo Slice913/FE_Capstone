@@ -40,7 +40,7 @@ nav > a {
   align-items: center;
 }
 
-ul {
+.nav-links {
   display: flex;
   list-style: none;
   padding: 0;
@@ -48,7 +48,7 @@ ul {
   gap: 1rem;
 }
 
-a {
+.nav-links > li > a {
   font-family: "Markazi";
   font-weight: bold;
   font-size: larger;
@@ -56,9 +56,9 @@ a {
   text-decoration: none;
 }
 
-.menu-btn {
+/* .menu-btn {
   background-color: #f4ce14;
   border-radius: 2rem;
   min-width: 5rem;
   padding: 0.5rem;
-}
+} */
