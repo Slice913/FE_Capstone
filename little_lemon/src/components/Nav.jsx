@@ -6,12 +6,7 @@ function Nav() {
   return (
     <container className="container">
       <header className="header-nav">
-        <img
-          className="logo"
-          src="little_lemon/public/assets/Logo.svg"
-          alt="little lemon logo"
-        />
-
+        <img className="logo" src="assets/Logo.svg" alt="little lemon logo" />
         <nav>
           <ul className="nav-links">
             <li>

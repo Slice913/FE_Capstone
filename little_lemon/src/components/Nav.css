@@ -6,8 +6,7 @@
   height: 5rem;
   /* margin: 0px;
   display: flex; 
-} 
-*/
+j*/
 
 .header-nav {
   display: flex;
@@ -17,22 +16,13 @@
   padding-left: 22rem;
 }
 
-/* @media (max-width: 580px) {
-  .header-nav {
-    flex-direction: column;
-    align-self: center;
-    color: red;
-    font-size: 0.5rem;
-  }
-} */
+.header-nav > nav:nth-child(2) {
+  margin-right: 17.5rem;
+}
 
 .logo {
   flex-shrink: initial;
   padding-right: 3rem;
-}
-
-nav > a {
-  /* padding: 0 1rem; */
 }
 
 .header-nav {

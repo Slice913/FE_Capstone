@@ -5,10 +5,16 @@ function Footer() {
   return (
     <footer className="footer-main">
       <div className="img-container">
-        <img src="" alt="" className="footer-img" />
+        <img
+          src="/Users/akeemayoade/Desktop/Coursera/FE_Capstone/little_lemon/public/assets/TESTERLL.jpg"
+          alt=""
+          className="footer-img"
+        />
       </div>
       <div className="footer-nav-text">
         <div className="footer-nav-links">
+          <h5 className="footer-link-titles">Doormat</h5>
+          <h5 className="footer-link-titles">Navigation</h5>
           <ul>
             <li>
               <a href="/#">Home</a>
@@ -32,6 +38,7 @@ function Footer() {
         </div>
         <div className="footer-nav-contacts">
           <ul>
+            <h5 className="footer-link-titles">Contact</h5>
             <li>
               <a href="/#">Contact</a>
             </li>
@@ -44,6 +51,7 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-nav-social">
+          <h5 className="footer-link-titles">Social Media Links</h5>
           <ul>
             <li>
               <a href="/#">Facebook</a>

@@ -15,11 +15,7 @@ function Header() {
         <button className="button-header">Reserve a Table</button>
       </article>
       <article className="header-section-right">
-        <img
-          src="little_lemon/public/assets/restauranfood.jpg"
-          alt=""
-          className="banner-img"
-        />
+        <img src="assets/restauranfood.jpg" alt="" className="banner-img" />
       </article>
     </section>
   );

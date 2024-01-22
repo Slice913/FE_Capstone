@@ -4,6 +4,11 @@ main {
   height: 46rem;
 }
 
+.specials-menu-button-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
 .button-main {
   font-family: Karla;
   font-size: 1.25rem;

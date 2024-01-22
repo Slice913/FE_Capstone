@@ -16,67 +16,8 @@ sm
 xs
 @media (max-width: 475px) { } */
 
-/* .container {
-  max-width: 1536px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-} */
-
-/* 2xl */
-/* @media (min-width: 1536px) {
-  .container {
-    max-width: 1280px;
+@media (max-width: 600px) {
+  .nav-links > li > a {
+    display: none;
   }
-} */
-
-/* xl */
-/* @media (min-width: 1280px) {
-  .container {
-    max-width: 1024px;
-  }
-} */
-
-/* lg */
-/* @media (min-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
-} */
-
-/* md */
-/* @media (min-width: 768px) {
-  .container {
-    max-width: 640px;
-  }
-} */
-
-/* @media (max-width: 640px) {
-  li > a {
-    opacity: 0%;
-    transform: 2s ease-in-out;
-  }
-} */
-
-/* sm */
-/* @media (min-width: 640px) {
-  /* .container > li {
-    /* flex-direction: row; 
-  }  */
-/* .logo {
-    opacity: 30%;
-  }
-  .menu-btn {
-    opacity: 0%;
-    width: 0;
-    height: 0;
-  } */
-/* } */
-
-/* xs */
-/* @media (min-width: 475px) {
-  .container {
-    width: 100%;
-  }
-} */
+}
